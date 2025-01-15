@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "feature-engineering"
+version = "0.1.0"
+description = ""
+authors = ["ALIEV Beylak"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+yfinance = "^0.2.51"
+plotly = "^5.24.1"
+pandas = "^2.2.3"
+ta-lib = "^0.5.2"
+llvmlite = "^0.43.0"
+tsfresh = "^0.20.3"
+scikit-learn = "^1.6.0"
+matplotlib = "^3.10.0"
+nbformat = "^5.10.4"
+seaborn = "^0.13.2"
+holidays = "^0.64"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
